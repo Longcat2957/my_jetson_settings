@@ -21,5 +21,8 @@ python3 setup.py install --user
 echo "# Install torchvision Complete"
 cd ../
 
+echo "# Install jtop"
+sudo pip3 install -U jetson-stats
+
 echo "# Check versions ..."
 python3 pycode.py
