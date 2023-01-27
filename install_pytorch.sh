@@ -21,8 +21,5 @@ python3 setup.py install --user
 echo "# Install torchvision Complete"
 cd ../
 
-echo "# Install OpenCV"
-pip3 install opencv-contrib-python==4.5.*
-
 echo "# Check versions ..."
 python3 pycode.py
